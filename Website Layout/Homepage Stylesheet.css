@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: linear-gradient(rgba(95, 165, 235, 0.7),rgba(0,20,180,0.7) );
+    height: 100px;
+    background-position: center;
+    position: sticky;
+}
+.row {
+    max-width: 95%;
+    margin: auto;
+}
+[title~=PROfolios_logo] {
+    max-width: 20%;
+    height: auto;
+    float: left;
+}
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 70px;
+}
+.main-nav li {
+    display: inline-block;
+    padding: 3px 5px;
+}
+.main-nav a {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+.main-nav li a:hover {
+    border: solid 1px white;
+}
+body {
+    background-image: radial-gradient(rgb(218, 213, 213,), rgb(99, 96, 96));
+}
+.side-nav {
+    float: left;
+    list-style: none;
+    margin-top: 10px;
+}
+.side-nav li {
+    display: flex;
+    border: solid 2px darkblue;
+    margin: 1% 1%;
+    padding: 3px 3px;
+    background-color: skyblue;
+}
+.side-nav a {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}

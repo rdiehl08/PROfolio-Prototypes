@@ -3,12 +3,13 @@
 .grid-container {
     display: inline-grid;
     width: 40%;
-    margin: auto;
+    margin: 1% 0% 0% 25%;
     height: auto;
     grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
     grid-gap: 5px;
     background-image: url(https://cdn.hipwallpaper.com/i/15/72/hDNVwl.jpg);
     padding: 0.4%;
+    border: solid 5px rgb(243, 49, 49);
     border-radius: 10%;
  }
 .grid-container > div {

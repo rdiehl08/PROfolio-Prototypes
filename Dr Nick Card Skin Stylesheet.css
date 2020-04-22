@@ -1,15 +1,15 @@
-
 /* Construct The Initial Grid Layout */
 .grid-container {
     display: inline-grid;
     width: 40%;
+    max-width: 44%;
     margin: 1% 0% 0% 25%;
     height: auto;
     grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
     grid-gap: 5px;
-    background-image: url(https://img.freepik.com/free-vector/black-dark-3d-low-poly-geometric-background_79145-393.jpg?size=626&ext=jpg);
+    background-image: url(https://i.pinimg.com/originals/0a/47/9d/0a479da74437beaee61d97fc3498323e.jpg);
     padding: 0.4%;
-    border: solid 5px rgb(233, 48, 63);
+    border: solid 5px rgb(0, 160, 253);
     border-radius: 10%;
  }
 .grid-container > div {
@@ -65,15 +65,15 @@ font-size: 16px;
 .item2 h1 {
     font-size: xx-large;
     font-style: italic;
-    color: rgb(233, 48, 63);
+    color: white;
 }
 .item10 h4 {
     font-style: italic;
-    color: rgb(233, 48, 63);
+    color: white;
 }
 .item10 h2 {
     font-size: x-large;
-    color: rgb(233, 48, 63);
+    color: white;
 }
 
 /* Build Sidebar Menu */
@@ -89,11 +89,11 @@ font-size: 16px;
     margin: 8% 0 14% 9%;
     text-align: center;
     font-size: small;
-    border: 1px white solid;
+    border: 1px solid white;
     border-radius: 20%;
-    background-color: rgb(233, 48, 63);
+    background-color: rgb(0, 160, 253);
     color: white;
-    box-shadow: 5px 5px 5px rgb(207, 100, 132);
+    box-shadow: 5px 5px 5px white;
     }
     
 .menu li:hover {
@@ -114,22 +114,23 @@ img {
     margin-top: 5%;
     height: auto;
     background-size: contain;
+    transition: width 2s;
 }
 
 [title~=author_pic] {
     border-radius: 50%;
-    border: 3px rgb(233, 48, 63) inset;
-    box-shadow: 0 2px 3px rgb(207, 100, 132);
+    border: 3px rgb(0, 160, 253) inset;
+    box-shadow: 0 2px 3px white;
 } 
 [title~=company_logo] {
-    margin: 30% 0 0 2%;
+    margin: 45% 0 0 -2%;
+    width: 90%;
     border-radius: 25%;
-    border: 2px rgb(233, 48, 63) inset;
-    box-shadow: 3px 3px 3px rgb(207, 100, 132);
+    border: 2px white inset;
+    box-shadow: 3px 3px 3px grey;
 } 
 [title~=author_pic]:hover {
     width: 90%;
-    transition: ease-in-out;
     transition-duration: 2s;
 }
 
