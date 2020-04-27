@@ -131,5 +131,6 @@ img {
     width: 90%;
     transition: ease-in-out;
     transition-duration: 2s;
+    cursor: none;
 }
 
