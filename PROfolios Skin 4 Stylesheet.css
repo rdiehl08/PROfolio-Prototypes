@@ -7,7 +7,7 @@
     grid-gap: 5px;
     background-image: url(https://yiworks.com/wp-content/uploads/2016/11/Cool-Light-Grey-background-fantastic-imago-creative-studio-video-production.jpg);
     padding: 0.4%;
-    border: solid 5px rgb(0, 0, 139);
+    border: dotted 10px rgb(0, 0, 139);
     border-radius: 10%;
  }
 .grid-container > div {
