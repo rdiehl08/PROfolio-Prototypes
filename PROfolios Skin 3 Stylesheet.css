@@ -7,7 +7,7 @@
     grid-gap: 5px;
     background-image: url(https://image.freepik.com/free-vector/blue-black-futuristic-with-metal-circle-mesh-background_33869-899.jpg);
     padding: 0.4%;
-    border: solid 5px rgb(0, 0, 139);
+    border: solid 5px rgb(40, 146, 245);
     border-radius: 10%;
  }
 .grid-container > div {
@@ -89,9 +89,9 @@ font-size: 16px;
     font-size: small;
     border: 1px white solid;
     border-radius: 20%;
-    background-color: rgb(135, 206, 250);
-    color: rgb(0, 0, 139);
-    box-shadow: 5px 5px 5px rgb(0, 0, 139);
+    background-color: rgb(40, 146, 245);
+    color: white;
+    box-shadow: 5px 5px 5px white;
     }
     
 .menu li:hover {

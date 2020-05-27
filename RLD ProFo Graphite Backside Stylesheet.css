@@ -1,19 +1,19 @@
-/* Construct The Initial Grid Layout */
 .grid-container {
     display: inline-grid;
     width: 40%;
     margin: 1% 0 0 25%;
-    color: rgb(233, 48, 63);
+    color: white;
     grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
     grid-gap: 5px;
-    background-image: url(https://img.freepik.com/free-vector/black-dark-3d-low-poly-geometric-background_79145-393.jpg?size=626&ext=jpg);
+    background-image: url(https://i.pinimg.com/originals/0a/47/9d/0a479da74437beaee61d97fc3498323e.jpg);
     padding: 0.4%;
+    border: solid 5px rgb(40, 146, 245);
     border-radius: 10%;
  }
 .grid-container > div {
 text-align: center;
 align-content: center;
-padding: 5% 5%;
+padding: 3% 3%;
 font-size: 18px;
 }
 .item1 {
@@ -23,9 +23,10 @@ font-size: 18px;
 .item2 {
     grid-area: 1 / 2 / 1 / 5;
 }
-.item2 h2 {
+.item2 h1 {
+    font-size: xx-large;
     font-style: italic;
-    text-align: center;
+    color: white;
 }
 .item3 {
     grid-area: 1 / 5 / 1 / 6;
@@ -46,15 +47,16 @@ font-size: 18px;
 .item8 {
     grid-area: 5 / 2 / 8 / 5;
 }
+.item8 h4 {
+    font-style: italic;
+    font-size: large;
+    color: white;
+}
 .item9 {
     grid-area: 5 / 5 / 8 / 6;
-}
-.item10 {
-    grid-area: 9 / 1 / 9 / 6;
     border-bottom-left-radius: 40%;
     border-bottom-right-radius: 40%;
 }
-
 
 
 /* Build Sidebar Menu */
@@ -62,6 +64,7 @@ font-size: 18px;
     list-style-type: none;
     margin: 75% 0 0 0;
     padding: 0;
+    padding-right: 2%;
     }
     
 .menu li {
@@ -72,9 +75,9 @@ font-size: 18px;
     font-size: small;
     border: 1px white solid;
     border-radius: 20%;
-    background-color: rgb(40, 221, 245);
+    background-color: rgb(40, 146, 245);
     color: white;
-    box-shadow: 5px 5px 5px rgb(207, 100, 132);
+    box-shadow: 5px 5px 5px white;
     }
     
 .menu li:hover {
@@ -89,12 +92,12 @@ font-size: 18px;
 
 table {
     border-collapse: collapse;
-    border: solid 4px rgb(233, 48, 63);
-    border-radius: 50%;
+    border: solid 4px rgb(40, 146, 245);
     width: 100%;
+    margin-left: 1%;
 }
 table.AttributeTable {
-    border: solid 4px rgb(233, 48, 63);
+    border: solid 4px white;
     border-radius: 10%;
     background-color: none;
     text-align: center;
@@ -106,7 +109,7 @@ table.AttributeTable::-webkit-scrollbar {
     visibility: hidden;
 }
 table.AttributeTable td {
-    border: 1px dotted rgb(233, 48, 63);
+    border: 1px dotted white;
     padding: 3px 2px;
 }
 table.AttributeTable tbody td {
@@ -130,7 +133,7 @@ table.AttributeTable thead th {
     top: 0; 
 }
 table.AttributeTable tbody tr:hover {
-    background-color: rgb(40, 221, 245);
+    background-color: rgb(60, 60, 250);
 }
 table.TendencyTable {
     border: solid 4px rgb(233, 48, 63);
@@ -146,7 +149,7 @@ table.TendencyTable::-webkit-scrollbar {
     width: 10px;
 }
 table.TendencyTable td {
-    border: 1px solid rgb(233, 48, 63);
+    border: 1px solid white;
     padding: 3px 2px;
     display: block;
 }
@@ -161,7 +164,7 @@ table.TendencyTable thead {
 table.TendencyTable thead th {
     font-size: medium;
     font-weight: bold;
-    color: black;
+    color: white;
     text-align: center;
     border-left: 2px solid black; 
 }
@@ -172,7 +175,7 @@ table.TendencyTable tbody tr:hover {
 td {
     padding: 2px;
     text-align: left;
-    border-bottom: 2px solid rgb(233, 48, 63);
+    border-bottom: 2px solid white;
     font-size: smaller;
     color: white;
 }
@@ -180,7 +183,7 @@ td {
 
 /* Build out Image properties for Logos */
 img {
-    width: 75%;
+    width: 98%;
     padding: 1% 1% 1% 1%;
     margin-top: 5%;
     height: auto;
@@ -189,6 +192,6 @@ img {
 [title~=company_logo] {
     margin: 60% 0 0 2%;
     border-radius: 25%;
-    border: 2px rgb(233, 48, 63) inset;
-    box-shadow: 3px 3px 3px rgb(207, 100, 132);
+    border: 2px white inset;
+    box-shadow: 3px 3px 3px grey;
 } 

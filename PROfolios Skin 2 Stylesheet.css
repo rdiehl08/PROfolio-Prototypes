@@ -7,7 +7,7 @@
     grid-gap: 5px;
     background-image: url(https://i.pinimg.com/originals/0a/47/9d/0a479da74437beaee61d97fc3498323e.jpg);
     padding: 0.4%;
-    border: solid 5px rgb(0, 0, 139);
+    border: solid 5px rgb(40, 146, 245);
     border-radius: 10%;
  }
 .grid-container > div {
