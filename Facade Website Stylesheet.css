@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom: solid 0.5px white;
+}
+.navbar-brand img {
+    float: right;
+    height: 60px;
+    padding-left: 2%;
+    padding-top: 3%;
+}
+.navbar-CompanyName {
+    font-size: xx-large;
+    border-bottom: white solid 2px;
+    text-align: center;
+    margin-left: 1%;
+    color: white;
+    font-family: 'RailwayRegular';
+    padding-top: 2%;
+}
+
+.navbar-nav li {
+    padding-top: 5%;
+    padding-right: 2.5px;
+}
+.navbar-nav li a {
+    float: left;
+    text-align: left;
+    color: white!important;
+    font-family: 'RailwayRegular';
+}
+#nav-bar ul li a:hover {
+    background-color: grey;
+}
+.navbar {
+    background-image: linear-gradient(rgb(14, 71, 249), rgb(135, 206, 250));
+}
+.navbar-toggler {
+    border: none!important;
+}
+.nav-link {
+    color: #555!important;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/*----------------Image Carousel Build------------------*/
+
+.carousel-item img {
+    margin: auto;
+    max-height: 210px;
+    opacity: 0.8;
+}
+.carousel-caption {
+    top: 10%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+    color: rgb(41, 106, 247)!important;
+    font-size: x-large;
+}
+
+#slider {
+    max-width: 70%;
+    margin: auto;
+}
+
+/*-----------------About Us Section--------------*/
+
+#intro {
+    margin-top: 15px;
+    color: #555;
+    font-family: 'RailwayRegular';
+}
+#intro .btn {
+    margin: 20px 0 20px 0;
+    background-image: linear-gradient(rgb(14, 71, 249), rgb(135, 206, 250));
+    border: none;
+}
+.intro-content {
+    padding: 0 1% 0 1%;
+}
+.founder-bio {
+    margin: auto;
+}
+.founder-bio img {
+    border: solid rgb(41, 106, 247) 3px;
+    border-radius: 50%;
+    width: 100%;
+    margin-top: 2%;
+}
+.founder-bio ul{
+    margin-left: 32%;
+}
+.founder-bio li {
+    display: inline-block;
+}
+.founder-bio h4 {
+    text-align: center;
+    font-size: larger;
+    margin-top: 5%;
+    border-bottom: solid 0.5px #555;
+}
+.founder-bio h6 {
+    text-align: center;
+    font-size: medium;
+    font-style: italic;
+}
+/*----------------Who We Serve Banner-------------*/
+#services {
+    background-image: linear-gradient(rgb(14, 71, 249), rgb(135, 206, 250));
+    background-size: cover;
+    background-position: center;
+    padding: 5px 0 5px 0;
+    color: white;
+    font-family: 'RailwayRegular';
+}
+#services h2 {
+    color: white;
+    text-align: center;
+}
+#services h2::after {
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 1px;
+    width: 200px;
+    margin: 10px auto 2px;
+}
+#services p {
+    font-size: small;
+    margin-top: 5px;
+}
+.services {
+    margin: 10px 0 0 0;
+}
+.icon {
+    font-size: 40px;
+    margin: 5px auto;
+    height: 60%;
+    width: 50%;
+    border: solid white 1px;
+    border-radius: 50%;
+}
+.icon img {
+    margin-top: 5px;
+}
+.services .col-md-3:hover {
+    background: #555;
+    cursor: pointer;
+    transition: 1s;
+}
+
+/*---------------About our Services-------------*/
+
+#about {
+    padding: 20px 0;
+    color: #555555;
+    font-family: 'RailwayRegular';
+}
+#about h2 {
+    text-align: center;
+    margin-top: 20px 0 10px 0;
+    padding-top: 10px;
+}
+#about h2::after {
+    content: '';
+    background: #555555;
+    display: block;
+    height: 1px;
+    width: 200px;
+    margin: 10px auto 40px;
+}
+#about h4 {
+    text-align: center;
+    margin-top: 10px 0 10px 0;
+    padding-top: 10px;
+}
+#about h4::after {
+    content: '';
+    background: #555555;
+    display: block;
+    height: 1px;
+    width: 100px;
+    margin: 10px auto 5px;
+}
+#about ul {
+    list-style: none;
+    padding-right: 4px;
+}
+#about li {
+    list-style: none;
+    padding-top: 5px;
+}
+#about img {
+    float: left;
+    max-width: 280px;
+    height: 150px;
+    margin: 1% 0 3% 0;
+    border: rgb(14, 71, 249) solid 2px;
+    border-radius: 10%;
+}
+.about-content {
+    display: inline;
+    font-family: 'RailwayRegular';
+    border-radius: 20%;
+}
+.about-content:hover {
+    background: #555555;
+    border: 2px rgb(135, 206, 250) solid;
+    border-radius: 20%;
+}
+.about-content ul li {
+    border-bottom: 1px solid #555;
+    padding: 3% 2%;
+    list-style: none;
+    text-align: center;
+}
+.about-content ul li:hover {
+    transition: 0.5s;
+    border: 1px solid white;
+    padding: 3% 2%;
+    color: white;
+    background-color: #555;
+    list-style: none;
+    text-align: center;
+}
+.about-consulting {
+    display: inline;
+    font-family: 'RailwayRegular';
+    border-radius: 20%;
+}
+.about-consulting:hover {
+    background: #555555;
+    border: 2px blue solid;
+    border-radius: 20%;
+}
+.about-consulting ul li {
+    border-bottom: 1px solid #555;
+    padding: 3% 2%;
+    list-style: none;
+    text-align: center;
+}
+.about-consulting ul li:hover {
+    transition: 0.5s;
+    border: 1px solid white;
+    padding: 3% 2%;
+    color: white;
+    background-color: rgb(14, 71, 249);
+    list-style: none;
+    text-align: center;
+}
+.about-sports {
+    display: inline;
+    border-radius: 20%;
+}
+.about-sports:hover {
+    background: #555555;
+    border: 2px blue solid;
+    border-radius: 20%;
+}
+.about-sports ul li {
+    border-bottom: 1px solid #555;
+    padding: 3% 2%;
+    list-style: none;
+    text-align: center;
+}
+.about-sports ul li:hover {
+    transition: 0.5s;
+    border: 1px solid white;
+    padding: 3% 2%;
+    color: white;
+    background-color: rgb(14, 71, 249);
+    list-style: none;
+    text-align: center;
+}
+.about-business {
+    display: inline;
+    border-radius: 20%;
+}
+.about-business:hover {
+    background: #555555;
+    border: 2px blue solid;
+    border-radius: 20%;
+}
+.about-business ul li {
+    border-bottom: 1px solid #555;
+    padding: 3% 2%;
+    list-style: none;
+    text-align: center;
+}
+.about-business ul li:hover {
+    transition: 0.5s;
+    border: 1px solid white;
+    padding: 3% 2%;
+    color: white;
+    background-color: rgb(14, 71, 249);
+    list-style: none;
+    text-align: center;
+}
+
+/*------------------Promo Strip------------------*/
+
+#promo1 {
+    background-image: linear-gradient(rgb(14, 71, 249), rgb(135, 206, 250));
+    color: white;
+    font-size: large;
+    text-align: center;
+    padding: 5px;
+}
+
+.btn-primary {
+    border: solid 0.5 white;
+    border-radius: 10%;
+}
+
+/*-------------Contact Us Map & Section-----------------*/
+
+#contact {
+    padding: 30px 0 20px 0;
+    color: #555;
+}
+#contact h2 {
+    text-align: center;
+    color:white;
+    padding-bottom: 10px;
+}
+#contact h2::after {
+    content: '';
+    background: white;
+    display: block;
+    height: 1px;
+    width: 200px;
+    margin: 10px auto 5px;
+}
+#contact {
+    background-image: linear-gradient(rgb(14, 71, 249), rgb(135, 206, 250));
+
